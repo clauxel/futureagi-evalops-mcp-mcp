@@ -1,0 +1,25 @@
+{
+  "error": "Error: server card fetch failed 522",
+  "fallback": {
+    "slug": "futureagievals",
+    "name": "FutureAGI EvalOps MCP",
+    "website": "https://futureagievals.clauxel.com/",
+    "endpoint": "https://futureagievals.clauxel.com/mcp",
+    "serverCard": "https://futureagievals.clauxel.com/.well-known/mcp/server-card.json",
+    "registryName": "com.clauxel.futureagievals/futureagievals-mcp",
+    "tools": [
+      "run_eval_gate",
+      "summarize_trace_failures",
+      "compare_eval_versions",
+      "issue_eval_receipt"
+    ],
+    "docsRepo": "futureagi-evalops-mcp-mcp",
+    "docs": "https://github.com/clauxel/futureagi-evalops-mcp-mcp",
+    "packageName": "@clauxel/futureagievals-mcp",
+    "directoryName": "futureagievals-mcp",
+    "category": "Testing",
+    "tagline": "Hosted MCP for AI SDK eval dashboard.",
+    "description": "FutureAGI EvalOps MCP is a paid remote MCP endpoint for AI SDK eval dashboard. It exposes structured JSON tools, a public server card, token-based access, usage receipts, and audit-ready workflow evidence for AI agents and coding teams.",
+    "icon": "https://futureagievals.clauxel.com/favicon.svg"
+  }
+}
