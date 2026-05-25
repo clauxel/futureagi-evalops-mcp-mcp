@@ -1,0 +1,15 @@
+# FutureAGI EvalOps MCP
+
+FutureAGI EvalOps MCP is a hosted remote MCP for AI SDK eval dashboard.
+
+Website: https://futureagievals.clauxel.com/
+Docs pattern reference: https://github.com/clauxel/MiroFish
+Primary keyword: AI SDK eval dashboard
+Type: MCP
+Default plan: team
+MCP endpoint: https://futureagievals.clauxel.com/mcp
+Server card: https://futureagievals.clauxel.com/server-card.json
+Registry name: com.clauxel.futureagievals/futureagievals-mcp
+Tools: run_eval_gate, summarize_trace_failures, compare_eval_versions, issue_eval_receipt
+
+Public boundary: docs-only repository; no production source code or secrets.
